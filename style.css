@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+body {
+	background-image: url("john-arano-h4i9G-de7Po-unsplash.jpg");
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	margin: 25px;
+	font-family: "Oswald", sans-serif;
+	text-shadow: 3px 3px 3px#ddd;
+}
+
+h1::before {
+	content: url("bathroom-scale.png");
+	zoom: 10%;
+}
+
+main {
+	width: 50%;
+	margin: 50px auto;
+	text-align: center;
+	padding: 50px;
+	background: #ffffffaf;
+	border-radius: 5px;
+}
+
+#resultado {
+	margin-top: 25px;
+	background-color: #406263;
+	border-radius: 3px;
+	padding: 15px;
+	color: #ddd;
+	font-weight: bold;
+	display: none;
+}
+
+.table {
+	margin-top: 25px;
+	background-color: #406263;
+	border-radius: 3px;
+	color: #ddd;
+	font-weight: bold;
+}
+
+footer {
+	background: #3b3a3a;
+	padding: 25px 0;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+}
+
+footer a {
+	color: #1e90ff;
+	text-decoration: none;
+}
